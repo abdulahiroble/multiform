@@ -23,7 +23,7 @@ export class Confirm extends Component {
     } = this.props;
     return (
       <MuiThemeProvider>
-        <form name="form" netlify>
+        <form name="form" method="POST" data-netlify="true">
           <Dialog
             open
             fullWidth
