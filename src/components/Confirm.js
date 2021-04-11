@@ -22,8 +22,8 @@ export class Confirm extends Component {
       values: { firstName, lastName, email, occupation, city, bio }
     } = this.props;
     return (
-      <MuiThemeProvider>
-        <form name="form" method="POST" data-netlify="true">
+      <form name="form" method="POST" data-netlify="true">
+        <MuiThemeProvider>
           <Dialog
             open
             fullWidth
@@ -65,8 +65,8 @@ export class Confirm extends Component {
               onClick={this.continue}
             >Confirm & Continue</Button>
           </Dialog>
-        </form>
-      </MuiThemeProvider>
+        </MuiThemeProvider>
+      </form>
     );
   }
 }
