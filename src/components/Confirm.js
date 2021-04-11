@@ -59,6 +59,7 @@ export class Confirm extends Component {
             >Back</Button>
 
             <Button
+              type="submit"
               color="primary"
               variant="contained"
               onClick={this.continue}
