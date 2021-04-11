@@ -32,13 +32,13 @@ export class Confirm extends Component {
             <AppBar title="Confirm User Data" />
             <List>
               <ListItem>
-                <ListItemText primary="First Name" secondary={firstName} />
+                <ListItemText primary="First Name" name="name" secondary={firstName} />
               </ListItem>
               <ListItem>
-                <ListItemText primary="Last Name" secondary={lastName} />
+                <ListItemText primary="Last Name" name="Last Name" secondary={lastName} />
               </ListItem>
               <ListItem>
-                <ListItemText primary="Email" secondary={email} />
+                <ListItemText primary="Email" name="Email" secondary={email} />
               </ListItem>
               <ListItem>
                 <ListItemText primary="Occupation" secondary={occupation} />
